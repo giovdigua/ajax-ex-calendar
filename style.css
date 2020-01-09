@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+header h2 {
+    text-align: center;
+}
+header button {
+    background-color: darkBlue;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+header button.notAllowed {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
