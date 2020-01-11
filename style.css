@@ -26,3 +26,21 @@ header button.notAllowed {
     cursor: not-allowed;
     pointer-events: none;
 }
+main{
+    height: calc(100vh -100px);
+    width: 100%;
+}
+#dateList{
+    margin: 50px auto;
+    width: 700px;
+    list-style-type: none;
+}
+
+#dateList li {
+    float:left;
+    width:100px;
+    height: 100px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+
+}
